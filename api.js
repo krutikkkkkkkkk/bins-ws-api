@@ -20,6 +20,7 @@ app.get('/api/:bin', (req, res)=> {
             let binInfo = binData.split("\n")
             binInfo = binInfo.filter(i=>i)
             let binObject = {
+                result: true,
                 bin : binInfo[0],
                 type: binInfo[1],
                 level: binInfo[2],
