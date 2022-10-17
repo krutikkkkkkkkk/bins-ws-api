@@ -6,7 +6,7 @@
             "use": "@now/static"
         },
         {
-            "src": "app.js",
+            "src": "api.js",
             "use": "@now/node"
         }
     ],
